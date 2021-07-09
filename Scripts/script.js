@@ -21,5 +21,7 @@ else if(menu[0].classList.contains('bx-x')){
     setTimeout(function(){ 
     var loader=document.getElementsByClassName('loader-content')
          loader[0].style.display="none";
+         document.body.scrollTop = 0; // For Safari
+         document.documentElement.scrollTop = 0;
           }, 5000);
  }
