@@ -305,4 +305,7 @@ li{
         display: none;
         visibility: hidden;
     }
+      .site-header-wrap{
+        margin-top: 1.5em;
+    }
  }
